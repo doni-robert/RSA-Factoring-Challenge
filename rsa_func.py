@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 check_prime = __import__('check_prime').check_prime
+
 def rsa(number):
     num = int(number)
     if num % 2 == 0:
@@ -15,5 +16,3 @@ def rsa(number):
                     return
             else:
                 i += 2
-
-
